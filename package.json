@@ -1,0 +1,65 @@
+{
+  "name": "babel-preset-sxt-engine",
+  "version": "1.0.0",
+  "description": "Collection of babel presets & plugins, following our styleguide",
+  "keywords": [
+    "babel",
+    "babelpreset",
+    "config",
+    "accelerator",
+    "javascript",
+    "styleguide"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "sku146",
+    "email": "skumar146@sapient.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "exit 0",
+    "check": "npm-check -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sku146/babel-preset-sxt-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sku146/babel-preset-sxt-engine/issues"
+  },
+  "homepage": "https://github.com/sku146/babel-preset-sxt-engine#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-polyfill":"^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.22.0",
+    "babel-plugin-transform-es3-property-literals": "^6.22.0",
+    "babel-plugin-transform-exponentiation-operator": "^6.24.1",
+    "babel-plugin-transform-jscript": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-lodash": "^3.3.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "flow-bin": "^0.62.0",
+    "babel-preset-flow": "^6.23.0"
+  },
+  "devDependencies": {
+    "npm-check": "^5.5.2"
+  },
+  "engines": {
+    "node": ">= 6",
+    "npm": ">= 3"
+  }
+}
