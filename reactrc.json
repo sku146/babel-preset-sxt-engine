@@ -13,6 +13,7 @@
     "transform-object-assign",
     "transform-class-properties",
     "transform-runtime",
+    "transform-regenerator",
     "lodash"
   ]
 }

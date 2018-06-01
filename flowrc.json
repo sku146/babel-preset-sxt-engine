@@ -1,14 +1,21 @@
 {
-  "presets": [["env", {"modules":false, "loose": true}]],
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }],
+    "flow"
+  ],
   "plugins": [
     "transform-es3-member-expression-literals",
     "transform-es3-property-literals",
-    "transform-exponentiation-operator",
     "transform-jscript",
+    "transform-exponentiation-operator",
     "transform-object-rest-spread",
+    "add-module-exports",
     "transform-object-assign",
     "transform-class-properties",
-    "transform-runtime",
     "transform-regenerator",
     "lodash"
   ]

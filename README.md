@@ -1,4 +1,4 @@
-# babel-preset-sxt-engine
+# babel-preset-sxt-engine v1.0.1
 Collection of Babel presets and plugins for all the development environments
 
 ## Installation
@@ -19,6 +19,16 @@ Add `sxt-engine` to the plugins section of your `.babelrc` configuration file. Y
 {
     "presets": [
         "sxt-engine"
+    ]
+}
+```
+
+## For flowjs
+
+```json
+{
+    "presets": [
+        "sxt-engine/flow"
     ]
 }
 ```
