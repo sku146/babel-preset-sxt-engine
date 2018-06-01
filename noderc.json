@@ -15,6 +15,7 @@
     "add-module-exports",
     "transform-object-assign",
     "transform-class-properties",
+    "transform-regenerator",
     "lodash"
   ]
 }
