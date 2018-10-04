@@ -1,15 +1,16 @@
 {
-  "presets": [["env", {"modules":false, "loose": true}], "react"],
+  "presets": [["@babel/preset-env", {"modules":false, "loose": true}], "@babel/preset-react"],
   "plugins": [
     "transform-es3-member-expression-literals",
     "transform-es3-property-literals",
-    "transform-exponentiation-operator",
-    "transform-jscript",
-    "transform-object-rest-spread",
-    "transform-object-assign",
-    "transform-class-properties",
-    "transform-runtime",
-    "transform-regenerator",
+    "@babel/plugin-transform-jscript",
+    "@babel/plugin-transform-exponentiation-operator",
+    "@babel/plugin-syntax-object-rest-spread",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-object-assign",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-regenerator",
+    "@babel/plugin-transform-runtime",
     "lodash"
   ]
 }

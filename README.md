@@ -1,4 +1,4 @@
-# babel-preset-sxt-engine v1.0.1
+# babel-preset-sxt-engine v2.0.0
 Collection of Babel presets and plugins for all the development environments
 
 ## Installation
